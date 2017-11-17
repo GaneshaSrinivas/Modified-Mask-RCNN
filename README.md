@@ -177,6 +177,15 @@ If you use Docker, the code has been verified to work on
 3. (Optional) To train or test on MS COCO install `pycocotools` from one of these repos. They are forks of the original pycocotools with fixes for Python3 and Windows (the official repo doesn't seem to be active anymore).
 
     * Linux: https://github.com/waleedka/coco
+    
+    ```
+    source /SSD2/jack/pythonEnv/python3/bin/activate
+    git clone https://github.com/waleedka/coco.git
+    cd /coco/PythonAPI
+    make
+    python setup.py install    
+    ```
+    
     * Windows: https://github.com/philferriere/cocoapi.
     You must have the Visual C++ 2015 build tools on your path (see the repo for additional details)
 
